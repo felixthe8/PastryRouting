@@ -7,9 +7,6 @@ import java.util.*;
 
     Execution Commands (run in specific order) :
     java Client 
-
-    Tested using 127.0.0.1 on localhost
-    and 54.241.121.103 (AWS IP address)
 */
 
 public class Client 
