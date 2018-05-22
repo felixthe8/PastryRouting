@@ -1,6 +1,6 @@
 # Pastry Routing
 CECS 327 Spring 2017
-This is a repository for a CECS 326 project. The goal of this project is to implement a Pastry routing algorithm to find the Pastry ID and corresponding IP address of a node in the system. 
+This is a repository for a CECS 327 project. The goal of this project is to implement a Pastry routing algorithm to find the Pastry ID and corresponding IP address of a node in the system. 
 
 ## Project Description
 This project simulates the interactions of nodes across a distributed system. Each node has a leaf set and a routing table. The leaf set holds the information regarding the next and previous 2 nodes in the routing system. The routing table is a data table stored by a node in a distributed system to that lists the routes to a particular network destination.  
