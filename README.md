@@ -23,10 +23,13 @@ Originally, this project was deployed on AWS EC2 t2.micro. However, the project 
 ```
 java SERVER_PROGRAM
 ```
-*Run the client code*
+*Open up another terminal window and run the client code*
 ```
 java Client
 ```
+
+## Running the Tests
+This project was tested with the SERVER_PROGRAM.java code running on an AWS EC2 t2.micro server and the Client.java code running on a local machine. The other nodes in the distributed system are also running on separate AWS instance, so if the Pastry ID cannot be found in the current leaf set or routing table, it will try and communicate with the other AWS instances. 
 
 ## Built With  
 [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)  
